@@ -58,7 +58,7 @@ function  count_prime($data){
 }
 // echo '<pre>';
 // echo memory_get_usage();
-  $limit = 100000;
+  $limit = 10000;
   $arr = get_prime_arr($limit);
   checksum_isprimeno_shift($arr,$limit);
   $result = $_SESSION['result'];
